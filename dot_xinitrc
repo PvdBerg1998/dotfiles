@@ -1,0 +1,6 @@
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+~/.fehbg &
+xmobar &
+exec xmonad
+
