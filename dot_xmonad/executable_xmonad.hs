@@ -262,7 +262,7 @@ myLogHook = return ()
 -- per-workspace layout choices.
 --
 -- By default, do nothing.
-myStartupHook = spawn "picom"
+myStartupHook = spawn "picom --config /home/pim/picom.conf --experimental-backends"
 
 ------------------------------------------------------------------------
 -- Now run xmonad with all the defaults we set up.
